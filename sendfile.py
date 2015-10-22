@@ -9,8 +9,8 @@ server.starttls()
 server.login('YOUR USERNAME', 'YOUR PASSWORD')
 
 msg = MIMEMultipart('alternative')
-toEmail = "matan.uchen@gmail.com"
-fromEmail = "minionsrule2k15@gmail.com"
+toEmail = ""
+fromEmail = ""
 body = "Sending file from *nix terminal"
 filename = sys.argv[1]
 f = file(filename)

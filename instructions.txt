@@ -1,0 +1,30 @@
+To use the script you have to run the following command:
+	user> python sendfile.py filename
+
+!---- BEFORE RUNNING ----!
+Make sure you edit the file to use your gmail account in the login and from
+variables.
+
+If you do not have a gmail account, either make one, or use your email's smtp
+server and port. 
+
+!---- EXTRA FUN ----!
+If you're using linux, create a bin folder in your home directory.
+
+	cd ~
+	mkdir bin
+	cd bin
+
+Once you're in the bin directory, add that directory to your PATH variable.
+
+	export PATH=$PATH:bin
+
+Now, in this directory you can create scripts. I made one for the python
+script that looks like this:
+
+	#!/bin/bash
+	python dir/sendfile.py $1
+
+Make sure you make it executable!
+
+	chmod 770 scriptname

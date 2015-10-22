@@ -1,5 +1,5 @@
 To use the script you have to run the following command:
-	user> python sendfile.py filename
+	python sendfile.py filename
 
 !---- BEFORE RUNNING ----!
 Make sure you edit the file to use your gmail account in the login and from

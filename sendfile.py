@@ -6,7 +6,7 @@ import sys
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.ehlo()
 server.starttls()
-server.login('minionsrule2k15@gmail.com', 'abc123!.')
+server.login('YOUR USERNAME', 'YOUR PASSWORD')
 
 msg = MIMEMultipart('alternative')
 toEmail = "matan.uchen@gmail.com"
